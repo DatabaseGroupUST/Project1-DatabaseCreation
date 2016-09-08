@@ -10,4 +10,4 @@ create table person (
     Major TEXT NOT NULL,
     PRIMARY KEY (Student_number)
 );
-
+--This is a test
