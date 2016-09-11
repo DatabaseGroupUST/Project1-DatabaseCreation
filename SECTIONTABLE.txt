@@ -14,7 +14,7 @@
 133,MATH,5870,Fall,2016,Margarito Button
 145,MATH,8770,Fall,2017,Carlo Coley
 156,MATH,9530,Fall,2016,Kathi Carey
-164,,,Fall,2017,Waylon Russo 
+164,CS,7680,Fall,2017,Waylon Russo 
 176,THEO,6640,Spring,2017,Kathi Carey
 187,MATH,5870,Spring,2016,Margarito Button
 194,HIST,4780,Spring,2017,Waylon Russo 
