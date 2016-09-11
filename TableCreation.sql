@@ -18,6 +18,7 @@ create table course (
     Course_number INTEGER NOT NULL,
     Credit_hours INTEGER NOT NULL,
     PRIMARY KEY (Course_number, Department)
+    FOREIGN KEY ()
 );
 
 --The keys have not been selected for this table
@@ -36,7 +37,8 @@ create table enrollment (
     Student_number INTEGER NOT NULL,
     Section_Identifier INTEGER NOT NULL,
     Grade VARCHAR(2) NULL,
-    PRIMARY KEY(Student_number, Section_identifier)
+    PRIMARY KEY(Person_number, Section_identifier)
+    FOREIGN KEY(Person_number) REFERENCES person(Person_number)
 );
 
 --The keys have not been selected for this table
@@ -45,7 +47,8 @@ create table prerequisite (
     Course_number INTEGER NOT NULL,
     Prereq_department TINYTEXT NOT NULL,
     Prereq_course_number INTEGER NOT NULL,
-    PRIMARY KET(Department, Course_number, Prereq_department, Prereq_course_number)
+    PRIMARY KEY(Department, Course_number, Prereq_department, Prereq_course_number),
+    FOREIGN KEY(Department, Course_number) REFERENCES course(Department, Course_number)
 );
 
 
