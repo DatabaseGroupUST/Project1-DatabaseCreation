@@ -4,11 +4,11 @@ create database nicholas_university;
 use nicholas_university;
 
 create table person (
-    Student_number INTEGER NOT NULL,
+    Person_number INTEGER NOT NULL,
     Name TINYTEXT NOT NULL,
     Class INTEGER NOT NULL,
     Major TINYTEXT NOT NULL,
-    PRIMARY KEY (Student_number)
+    PRIMARY KEY (Person_number)
 );
 
 --The keys have not been selected for this table
@@ -16,7 +16,8 @@ create table course (
     Course_name TEXT NOT NULL,
     Department TINYTEXT NOT NULL,
     Course_number INTEGER NOT NULL,
-    Credit_hours INTEGER NOT NULL
+    Credit_hours INTEGER NOT NULL,
+    PRIMARY KEY (Course_number, Department)
 );
 
 --The keys have not been selected for this table
@@ -26,7 +27,8 @@ create table section (
     Course_number INTEGER NOT NULL,
     Semester TINYTEXT NOT NULL,
     Year INTEGER NOT NULL,
-    Instructor TINYTEXT NOT NULL
+    Instructor TINYTEXT NOT NULL,
+    PRIMARY KEY(Section_identifier)
 );
 
 --The keys have not been selected for this table
@@ -34,6 +36,7 @@ create table enrollment (
     Student_number INTEGER NOT NULL,
     Section_Identifier INTEGER NOT NULL,
     Grade VARCHAR(2) NULL,
+    PRIMARY KEY(Student_number, Section_identifier)
 );
 
 --The keys have not been selected for this table
@@ -42,6 +45,7 @@ create table prerequisite (
     Course_number INTEGER NOT NULL,
     Prereq_department TINYTEXT NOT NULL,
     Prereq_course_number INTEGER NOT NULL,
+    PRIMARY KET(Department, Course_number, Prereq_department, Prereq_course_number)
 );
 
 
