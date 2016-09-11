@@ -1,17 +1,16 @@
 show database;
 create database nicholas_university;
---this is acomment
 use nicholas_university;
 
 create table person (
     Person_number INTEGER NOT NULL,
-    Name TINYTEXT NOT NULL,
+    First_name TINYTEXT NOT NULL,
+    Last_name TINYTEXT NOT NULL,
     Class INTEGER NOT NULL,
     Major TINYTEXT NOT NULL,
     PRIMARY KEY (Person_number)
 );
 
---The keys have not been selected for this table
 create table course (
     Course_name TEXT NOT NULL,
     Department TINYTEXT NOT NULL,
@@ -20,7 +19,6 @@ create table course (
     PRIMARY KEY (Course_name, Course_number, Department)
 );
 
---The keys have not been selected for this table
 create table section (
     Section_identifier INTEGER NOT NULL,
     Department TINYTEXT NOT NULL,
@@ -32,7 +30,6 @@ create table section (
     FOREIGN KEY(Department, Course_number) REFERENCES course(Department, Course_number)
 );
 
---The keys have not been selected for this table
 create table enrollment (
     Student_number INTEGER NOT NULL,
     Section_Identifier INTEGER NOT NULL,
@@ -41,7 +38,6 @@ create table enrollment (
     FOREIGN KEY(Person_number) REFERENCES person(Person_number)
 );
 
---The keys have not been selected for this table
 create table prerequisite (
     Department TINYTEXT NOT NULL,
     Course_number INTEGER NOT NULL,
