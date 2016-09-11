@@ -1,6 +1,6 @@
 show database;
 create database nicholas_university;
-
+--this is acomment
 use nicholas_university;
 
 create table person (
