@@ -30,10 +30,10 @@ create table section (
 );
 
 --The keys have not been selected for this table
-create table grade_report (
+create table enrollment (
     Student_number INTEGER NOT NULL,
     Section_Identifier INTEGER NOT NULL,
-    Grade VARCHAR(2) NOT NULL,
+    Grade VARCHAR(2) NULL,
 );
 
 --The keys have not been selected for this table
