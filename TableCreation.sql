@@ -17,8 +17,7 @@ create table course (
     Department TINYTEXT NOT NULL,
     Course_number INTEGER NOT NULL,
     Credit_hours INTEGER NOT NULL,
-    PRIMARY KEY (Course_number, Department)
-    FOREIGN KEY ()
+    PRIMARY KEY (Course_name, Course_number, Department)
 );
 
 --The keys have not been selected for this table
@@ -30,6 +29,7 @@ create table section (
     Year INTEGER NOT NULL,
     Instructor TINYTEXT NOT NULL,
     PRIMARY KEY(Section_identifier)
+    FOREIGN KEY(Department, Course_number) REFERENCES course(Department, Course_number)
 );
 
 --The keys have not been selected for this table
