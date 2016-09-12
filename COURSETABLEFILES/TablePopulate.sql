@@ -98,7 +98,7 @@ INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (41, 6
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (11, 78, "D");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (25, 78, "F");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (48, 78, "D");
-INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (19, 89, "D");
+INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (20, 89, "D");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (18, 89, "B");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (10, 89, "C");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (19, 89, "D");
