@@ -52,6 +52,22 @@ INSERT INTO person (Person_number, First_name, Last_name, Class, Major) VALUES (
 
 
 
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Intro to Computer Science", "CS", 3770, 3);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Data Structures", "CS", 7680, 4);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Database", "CS", 8620, 3);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Christ and the Moral Life", "THEO", 6640, 3);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Teachings of the Catholic Church", "THEO", 5690, 3);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Theology of the Body", "THEO", 4020, 4);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("World History I", "HIST", 5060, 3);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("World History II", "HIST", 7940, 4);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("American History I", "HIST", 2320, 4);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("American History II", "HIST", 4780, 4);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Space History", "HIST", 3100, 4);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Linear Algebra", "MATH", 1280, 4);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Calculus I", "MATH", 9840, 3);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Calculus II", "MATH", 5870, 4);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Calculus III", "MATH", 8770, 3);
+INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Discrete Mathematics", "MATH", 9530, 4);
 INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (5, "CS", 3770, "Fall", 2016, "Kathi Carey");
 INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (14, "CS", 7680, "Fall", 2016, "Carlo Coley");
 INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (24, "CS", 8620, "Fall", 2017, "Waylon Russo");
@@ -191,27 +207,6 @@ INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (19, 1
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (10, 194, "B");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (14, 194, "C");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (42, 194, "D");
-
-
-
-
-
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Intro to Computer Science", "CS", 3770, 3);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Data Structures", "CS", 7680, 4);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Database", "CS", 8620, 3);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Christ and the Moral Life", "THEO", 6640, 3);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Teachings of the Catholic Church", "THEO", 5690, 3);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Theology of the Body", "THEO", 4020, 4);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("World History I", "HIST", 5060, 3);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("World History II", "HIST", 7940, 4);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("American History I", "HIST", 2320, 4);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("American History II", "HIST", 4780, 4);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Space History", "HIST", 3100, 4);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Linear Algebra", "MATH", 1280, 4);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Calculus I", "MATH", 9840, 3);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Calculus II", "MATH", 5870, 4);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Calculus III", "MATH", 8770, 3);
-INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Discrete Mathematics", "MATH", 9530, 4);
 
 
 
