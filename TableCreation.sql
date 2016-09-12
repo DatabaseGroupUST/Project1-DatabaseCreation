@@ -35,7 +35,7 @@ create table enrollment (
     Section_Identifier INTEGER NOT NULL,
     Grade VARCHAR(2) NULL,
     PRIMARY KEY(Student_number, Section_identifier),
-    FOREIGN KEY(Section_Identifier) REFERENCES person(Section_identifier),
+    FOREIGN KEY(Section_Identifier) REFERENCES section(Section_identifier),
     FOREIGN KEY(Student_number) REFERENCES person(Person_number)
 );
 
