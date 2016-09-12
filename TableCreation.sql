@@ -35,6 +35,7 @@ create table enrollment (
     Section_Identifier INTEGER NOT NULL,
     Grade VARCHAR(2) NULL,
     PRIMARY KEY(Student_number, Section_identifier),
+    FOREIGN KEY(Section_Identifier) REFERENCES person(Section_identifier),
     FOREIGN KEY(Student_number) REFERENCES person(Person_number)
 );
 
@@ -44,7 +45,8 @@ create table prerequisite (
     Prereq_department VARCHAR(255) NOT NULL,
     Prereq_course_number INTEGER NOT NULL,
     PRIMARY KEY(Department, Course_number, Prereq_department, Prereq_course_number),
-    FOREIGN KEY(Course_number, Department) REFERENCES course(Course_number, Department)
+    FOREIGN KEY(Course_number, Department) REFERENCES course(Course_number, Department),
+    FOREIGN KEY(Prereq_course_number, Prereq_department) REFERENCES course(Course_number, Department)
 );
 
 
