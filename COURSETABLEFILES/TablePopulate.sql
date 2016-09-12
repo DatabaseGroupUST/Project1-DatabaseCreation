@@ -66,7 +66,6 @@ INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (15, 1
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (22, 14, "F");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (34, 14, "D");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (2, 14, "B");
-INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (12, 14, "F");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (26, 14, "C");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (22, 24, "B");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (49, 24, "F");
@@ -101,7 +100,6 @@ INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (25, 7
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (48, 78, "D");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (19, 89, "D");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (18, 89, "B");
-INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (18, 89, "C");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (10, 89, "C");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (9, 89, "D");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (34, 96, "C");
@@ -150,13 +148,11 @@ INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (17, 1
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (35, 176, "C");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (44, 176, "D");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (49, 176, "C");
-INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (35, 176, "B");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (27, 176, "F");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (42, 176, "B");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (12, 176, "B");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (14, 176, "C");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (25, 187, "B");
-INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (25, 187, "C");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (8, 187, "D");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (21, 187, "B");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (7, 187, "D");
