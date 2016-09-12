@@ -52,6 +52,30 @@ INSERT INTO person (Person_number, First_name, Last_name, Class, Major) VALUES (
 
 
 
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (5, "CS", 3770, "Fall", 2016, "Kathi Carey");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (14, "CS", 7680, "Fall", 2016, "Carlo Coley");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (24, "CS", 8620, "Fall", 2017, "Waylon Russo");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (35, "THEO", 6640, "Spring", 2016, "Waylon Russo");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (41, "THEO", 5690, "Fall", 2016, "Margarito Button");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (53, "THEO", 4020, "Spring", 2017, "Carlo Coley");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (62, "HIST", 5060, "Spring", 2017, "Kathi Carey");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (78, "HIST", 7940, "Fall", 2017, "Waylon Russo");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (89, "HIST", 2320, "Fall", 2016, "Margarito Button");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (96, "HIST", 4780, "Fall", 2016, "Jaleesa Hammonds");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (101, "HIST", 3100, "Spring", 2017, "Waylon Russo");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (113, "MATH", 1280, "Fall", 2017, "Michale Stallworth");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (127, "MATH", 9840, "Spring", 2017, "Waylon Russo");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (133, "MATH", 5870, "Fall", 2016, "Margarito Button");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (145, "MATH", 8770, "Fall", 2017, "Carlo Coley");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (156, "MATH", 9530, "Fall", 2016, "Kathi Carey");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (164, "CS", 7680, "Fall", 2017, "Waylon Russo");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (176, "THEO", 6640, "Spring", 2017, "Kathi Carey");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (187, "MATH", 5870, "Spring", 2016, "Margarito Button");
+INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (194, "HIST", 4780, "Spring", 2017, "Waylon Russo");
+
+
+
+
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (11, 5, "C");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (14, 5, "F");
 INSERT INTO enrollment (Student_number, Section_Identifier, Grade) VALUES (23, 5, "F");
@@ -188,30 +212,6 @@ INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES
 INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Calculus II", "MATH", 5870, 4);
 INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Calculus III", "MATH", 8770, 3);
 INSERT INTO course (Course_name, Department, Course_number, Credit_hours) VALUES ("Discrete Mathematics", "MATH", 9530, 4);
-
-
-
-
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (5, "CS", 3770, "Fall", 2016, "Kathi Carey");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (14, "CS", 7680, "Fall", 2016, "Carlo Coley");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (24, "CS", 8620, "Fall", 2017, "Waylon Russo");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (35, "THEO", 6640, "Spring", 2016, "Waylon Russo");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (41, "THEO", 5690, "Fall", 2016, "Margarito Button");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (53, "THEO", 4020, "Spring", 2017, "Carlo Coley");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (62, "HIST", 5060, "Spring", 2017, "Kathi Carey");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (78, "HIST", 7940, "Fall", 2017, "Waylon Russo");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (89, "HIST", 2320, "Fall", 2016, "Margarito Button");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (96, "HIST", 4780, "Fall", 2016, "Jaleesa Hammonds");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (101, "HIST", 3100, "Spring", 2017, "Waylon Russo");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (113, "MATH", 1280, "Fall", 2017, "Michale Stallworth");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (127, "MATH", 9840, "Spring", 2017, "Waylon Russo");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (133, "MATH", 5870, "Fall", 2016, "Margarito Button");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (145, "MATH", 8770, "Fall", 2017, "Carlo Coley");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (156, "MATH", 9530, "Fall", 2016, "Kathi Carey");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (164, "CS", 7680, "Fall", 2017, "Waylon Russo");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (176, "THEO", 6640, "Spring", 2017, "Kathi Carey");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (187, "MATH", 5870, "Spring", 2016, "Margarito Button");
-INSERT INTO section (Section_identifier, Department, Course_number, Semester, Year, Instructor) VALUES (194, "HIST", 4780, "Spring", 2017, "Waylon Russo");
 
 
 
