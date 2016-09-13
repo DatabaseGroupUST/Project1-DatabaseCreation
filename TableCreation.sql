@@ -31,10 +31,10 @@ create table section (
 );
 
 create table enrollment (
-    Student_number INTEGER NOT NULL,
+    Person_number INTEGER NOT NULL,
     Section_Identifier INTEGER NOT NULL,
     Grade VARCHAR(2) NULL,
-    PRIMARY KEY(Student_number, Section_identifier),
+    PRIMARY KEY(Person_number, Section_identifier),
     FOREIGN KEY(Section_Identifier) REFERENCES section(Section_identifier),
     FOREIGN KEY(Student_number) REFERENCES person(Person_number)
 );
