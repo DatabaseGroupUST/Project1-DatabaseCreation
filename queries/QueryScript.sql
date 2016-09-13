@@ -31,3 +31,10 @@ and p.major not in ('department')
 and e.section_identifier = 101
 and e.grade is null;
 }
+
+--This is the sixth query
+SELECT s.Section_identifier as SI, s.Course_number as CN, COUNT(e.Person_number) as PN_count
+FROM section as s
+LEFT JOIN enrollment as e on e.Section_identifier = s.Section_identifier                                     
+GROUP BY s.Course_number, s.Department;
+
